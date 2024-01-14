@@ -1,0 +1,204 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+header{
+    background-image: url("https://rameswaramtourism.com/wp-content/uploads/2018/11/rameshwaram-tourism.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 66px 46px 134px -42px rgba(0,0,0,0.68) inset;
+}
+nav{
+    width: 100%;
+    height: 18vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 15px;
+}
+nav .menu a:hover{
+    text-decoration:underline;
+    color: #e50914;
+}
+nav .menu a{   
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(5, 53, 46);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav .menu a:first-child{
+    color: orangered;
+}
+nav .menu a:active{
+    color: orangered;
+}
+section{
+    text-align: center;
+}
+section h1{
+    margin: 210px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(182, 26, 86);
+    animation: blink 1.5s linear infinite;
+}
+@keyframes blink{
+    25%{opacity: 0; color: red;}
+    50%{opacity: 1; color: blueviolet;}
+    75%{opacity: 0; color: blue;}
+    100%{opacity: 1; color: red;}
+}
+section p{
+    font-size: 20px;
+    color: rgb(7, 65, 3);
+}
+section .quotes {
+    font-weight: bolder; 
+    font-size: 30px; 
+    margin-bottom: 50px; 
+    color: rgb(37, 2, 2);
+}
+section .abt{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+    font-weight: 500;
+    line-height: 0.8cm;
+}
+.gallery{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.temple{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.temple h2{
+    color: red;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.38);
+}
+.division{
+     display: flex;
+     min-height: 400px;
+     justify-content:center;
+     align-items: center;
+}
+.division .div1{
+       height: 360px;
+       width: 330px;
+       padding: 20px 30px;
+       /* background-color:lightsalmon; */
+       margin: 15px;
+       position: relative;
+       overflow: hidden;
+       text-align: left;
+       font-family: sans-serif;
+       font-size: 15px;
+}
+.mail-btn
+{
+    background-color: lightcyan;
+    border: 1px solid grey;
+    padding: 18px;
+    padding-right: 150px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    /* position: absolute; */
+    left: 525px; 
+    top: 755px; 
+}
+.get-btn
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 25px;
+    background-color: #e50914;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 520px;
+    left: 56%;
+    top: 755px;
+}
+.get-btn i
+{
+    background-color:#e50914;
+    right:8px ;
+    font-size:20px ;
+}
+.footer
+{
+    position: relative;
+    background-size: cover;
+    height: 70vh; 
+    padding-left: 10px;
+}
+.footer p{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 68px;
+}
+.subdiv1 ul li,.subdiv2 ul li,.subdiv3 ul li,.subdiv4 ul li
+{
+    justify-content: space-evenly;
+    list-style-type: none;
+    line-height: 2;
+}
+.footer-cols
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.language-bot 
+{
+    margin-left: 138px;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+}
+.language-bot i
+{
+    font-size: 20px;
+}
+.lang
+{
+    border: 0;
+}
+.content{
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align:center;
+}
